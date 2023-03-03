@@ -386,6 +386,8 @@ services:
           aliases:
             - nginx
         webnet-a:
+            aliases:
+            - nginx-mailcow-fallback
 
 
     acme-mailcow:
